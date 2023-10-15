@@ -59,7 +59,6 @@ public:
     {
         this->name = new char[strlen(name) + 1];
         strcpy(this->name, name);
-        // this->name = name;
     }
     int sethealth(int health)
     {
