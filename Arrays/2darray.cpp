@@ -35,7 +35,6 @@ int printcolsum(int **arr, int row, int col)
 int printarray(int **arr, int row, int col)
 {
     cout << "Printing array : " << endl;
-    ;
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
@@ -61,8 +60,7 @@ int main()
         arr[i] = new int[n];
     }
 
-    cout << "Input elements :"
-         << " , ";
+    cout << "Input elements : ";
     for (row = 0; row < m; row++)
     {
         for (col = 0; col < n; col++)
