@@ -16,7 +16,7 @@ vector<int> sqrtdecompose(vector<int>& arr, int n) {
 void update(vector<int>& arr, vector<int>& blocks, int n, int index, int key) {
     int changeValue = key - arr[index];
     arr[index] = key;
-    int block_size = ceil(static_cast<double>(n) / sqrt(n));
+    int block_size = ceil(n / sqrt(n));
     blocks[index/block_size] += changeValue;
 }
 
